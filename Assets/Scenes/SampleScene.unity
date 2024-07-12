@@ -257,8 +257,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ada68ddb06d52c446aecdfc4128a881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Duration: 4
   _color: {r: 0.4811321, g: 0.029503396, b: 0.47104323, a: 1}
-  _duration: 5
 --- !u!136 &196931812
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -465,8 +465,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb9cf3b2815bf86428247473cb65f3c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Duration: 4
   _target: {x: -3, y: -3, z: 3}
-  _duration: 3
 --- !u!1 &503756665
 GameObject:
   m_ObjectHideFlags: 0
@@ -585,8 +585,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 192d212ff04ab9841b63a5d66b89426b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Duration: 3
   _endRotation: {x: 0, y: 180, z: 0}
-  _duration: 3
 --- !u!1 &683147900
 GameObject:
   m_ObjectHideFlags: 0
@@ -891,10 +891,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93ce57c113b4d064f9fc923d3158012e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _content: "\u041F\u0438\u0437\u0434\u0435\u0446 \u043A\u0440\u0443\u0442\u0430\u044F
-    \u0434\u043E\u043C\u0430\u0448\u043A\u0430"
-  _duration: 4
+  Duration: 2
+  _content1: "\u0412\u0410\u0423, \u041E\u041D\u0418 \u041A\u0420\u0423\u0416\u0410\u0422\u0421\u042F"
+  _content2: "\u0418 \u0421\u041A\u0415\u0419\u041B\u042F\u0422\u0421\u042F"
+  _content3: "\u0418 \u041C\u0415\u041D\u042F\u042E\u0422 \u0426\u0412\u0415\u0422!"
   _text: {fileID: 1068351458}
+  _delay: 1
 --- !u!114 &1068351458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -928,7 +930,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 
 --- !u!222 &1068351459
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1057,8 +1059,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7def8dcedc355142bfe2f49cffe314e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Duration: 3
   _maxScale: {x: 5, y: 5, z: 5}
-  _duration: 3
 --- !u!1 &1926328865
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,8 +1181,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb9cf3b2815bf86428247473cb65f3c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Duration: 2
   _target: {x: 0, y: 0, z: 0}
-  _duration: 2
 --- !u!114 &1926328871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1193,8 +1195,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 192d212ff04ab9841b63a5d66b89426b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Duration: 0.5
   _endRotation: {x: 90, y: 0, z: 0}
-  _duration: 0.5
 --- !u!114 &1926328872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1207,8 +1209,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7def8dcedc355142bfe2f49cffe314e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Duration: 3
   _maxScale: {x: 2, y: 2, z: 1}
-  _duration: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

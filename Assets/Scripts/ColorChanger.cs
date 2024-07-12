@@ -2,10 +2,9 @@ using DG.Tweening;
 using UnityEngine;
 
 [RequireComponent (typeof(Renderer))]
-public class ColorChanger : MonoBehaviour
+public class ColorChanger : BaseBehaviour
 {
     [SerializeField] private Color _color;
-    [SerializeField] private float _duration;
 
     private Renderer _renderer;
 
@@ -16,6 +15,6 @@ public class ColorChanger : MonoBehaviour
 
     private void Start()
     {
-        _renderer.material.DOColor(_color, _duration);
+        _renderer.material.DOColor(_color, Duration).SetLoops(-1, LoopType.Yoyo);
     }
 }
