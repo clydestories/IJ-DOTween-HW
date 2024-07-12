@@ -14,8 +14,8 @@ public class TextChanger : BaseBehaviour
     {
         Sequence sequence = DOTween.Sequence();
 
-        sequence.Append(_text.DOText(_content1, Duration, true, ScrambleMode.Numerals).SetDelay(_delay));
-        sequence.Append(_text.DOText(_content2, Duration, false, ScrambleMode.Lowercase).SetDelay(_delay));
+        sequence.Append(_text.DOText(_content1, Duration).SetDelay(_delay));
+        sequence.Append(_text.DOText(_content2, Duration).SetRelative().SetDelay(_delay));
         sequence.Append(_text.DOText(_content3, Duration, true, ScrambleMode.Uppercase).SetDelay(_delay));
         sequence.SetLoops(-1, LoopType.Incremental);
     }

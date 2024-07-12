@@ -892,7 +892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Duration: 2
-  _content1: "\u0412\u0410\u0423, \u041E\u041D\u0418 \u041A\u0420\u0423\u0416\u0410\u0422\u0421\u042F"
+  _content1: "\u0412\u0410\u0423, \u041E\u041D\u0418 \u041A\u0420\u0423\u0416\u0410\u0422\u0421\u042F "
   _content2: "\u0418 \u0421\u041A\u0415\u0419\u041B\u042F\u0422\u0421\u042F"
   _content3: "\u0418 \u041C\u0415\u041D\u042F\u042E\u0422 \u0426\u0412\u0415\u0422!"
   _text: {fileID: 1068351458}
@@ -930,7 +930,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: "\u0412\u041E\u0422 \u042D\u0422\u041E \u0424\u0418\u0413\u0423\u0420\u042B!"
 --- !u!222 &1068351459
 CanvasRenderer:
   m_ObjectHideFlags: 0
